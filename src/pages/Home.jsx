@@ -160,7 +160,7 @@ function Hero() {
 
               <div className="h-80 overflow-hidden rounded-t-[999px] rounded-b-[2rem] bg-royal-l shadow-2xl shadow-royal/25 md:h-[26rem]">
                 <img
-                  src={`${import.meta.env.VITE_API_URL.replace(/\/api\/?$/, "")}/static/img/profile.jpg`}
+                  src={`${(import.meta.env.VITE_API_URL || "").replace(/\/api\/?$/, "")}/static/img/profile.jpg`}
                   alt={t("خانم زند، مشاور املاک چیتگر منطقه ۲۲")}
                   width="640"
                   height="832"
