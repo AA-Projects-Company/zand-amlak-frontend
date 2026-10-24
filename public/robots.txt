@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /panel/
+Disallow: /login/
+Disallow: /logout/
+
+Sitemap: https://zandamlak.ir/sitemap.xml
